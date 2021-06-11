@@ -1,0 +1,34 @@
+.calc-app {
+  margin: auto;
+  margin-top: 40px;
+  width: 256px;
+  text-align: center;
+  }
+  .keypad{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+  }
+  input[type="text"]{
+    height: 60px;
+    width:250px;
+    font-size: 40px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(171, 171, 179)
+  }
+  input:focus {
+    border-color: rgb(26, 27, 26)
+  }
+  #result{
+    grid-column:1/5;
+  }
+  button{
+    font-size: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  button:hover{
+    background-color: greenyellow;
+  }
