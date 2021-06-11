@@ -17,7 +17,7 @@ function App() {
   }
   function calculate(){
     try{
-      setResult(eval(result).toString());
+      setResult(result.toString());
     }
     catch(error){
       setResult("Error");
